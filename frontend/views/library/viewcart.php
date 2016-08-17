@@ -24,7 +24,11 @@ $this->params['breadcrumbs'][] = $this->title;
 				        'dataProvider' => $dataProvider,
 				        'columns' => [
 				            'title',
-				             'isbn',
+				            [
+				            	'label' => 'ISBN',
+				            	'value' => 'isbn',
+				            ],
+				             
 				             'total_copies',
 				             'available_copies',
 				             [
