@@ -57,7 +57,7 @@ class Book extends \yii\db\ActiveRecord
             'title' => 'Title',
             'category_id' => 'Category',
             'author_id' => 'Author',
-            'publisher_id' => 'Publisher ID',
+            'publisher_id' => 'Publisher',
             'isbn' => 'ISBN',
             'total_copies' => 'Total Copies',
             'available_copies' => 'Available Copies',
