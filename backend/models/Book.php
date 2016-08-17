@@ -42,6 +42,7 @@ class Book extends \yii\db\ActiveRecord
             [['category_id', 'author_id', 'publisher_id', 'total_copies', 'available_copies'], 'integer'],
             [['title'], 'string', 'max' => 128],
             [['isbn'], 'string', 'max' => 20],
+            [['total_copies'], 'integer', 'min' => 1],
             ['available_copies', 'compare', 'compareAttribute' => 'total_copies']
         ];
     }
