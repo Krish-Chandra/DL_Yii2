@@ -31,11 +31,21 @@ $this->params['breadcrumbs'][] = $this->title;
 		        'columns' => [
 		            ['class' => 'yii\grid\SerialColumn'],
 
-		            'id',
 		            'title',
-		            'category_id',
-		            'author.authorname',
-		            'publisher_id',
+		            [
+		            	'label' => 'Category',
+		            	'value' => 'category.categoryname',
+		            ],
+		            
+		            [
+		            	'label' => 'Author',
+		            	'value' => 'author.authorname',
+		            ],
+		            [
+		            	'label' => 'Publisher',
+		            	'value' => 'publisher.publishername',
+		            ],
+		            
 		             'isbn',
 		             'total_copies',
 		             'available_copies',
