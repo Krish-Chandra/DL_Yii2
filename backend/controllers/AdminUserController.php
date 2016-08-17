@@ -118,7 +118,10 @@ class AdminUserController extends BaseController
      */
     public function actionDelete($id)
     {
-         $this->findModel($id)->delete();
+		$auth = Yii::$app->authManager;
+        $model = $this->findModel($id);
+		$auth->revokeAll($model->getId());        
+        $model->delete();
 
          return $this->redirect(['index']);
     }
