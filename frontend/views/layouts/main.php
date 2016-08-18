@@ -108,13 +108,20 @@ AppAsset::register($this);
         </div>
     </div>
 
-    <footer class="footer">
+<!--     <footer class="footer">
         <div class="navbar navbar-inverse navbar-fixed-bottom responsive block-center">
         <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
         <p class="pull-right"><?= Yii::powered() ?></p>
         </div>
     </footer>
-
+ -->
+    <footer class="footer">
+        <div class="navbar navbar-inverse navbar-fixed-bottom responsive block-center">
+        <p class="pull-left" style="color:white">Developed by Krish Chandra </p>
+        <p class="pull-right" style="color:white"><?= Yii::powered() ?></p>
+        </div>
+    </footer>
+ 
     <?php $this->endBody() ?>
 </body>
 </html>
