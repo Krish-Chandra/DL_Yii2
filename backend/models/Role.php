@@ -75,7 +75,7 @@ class Role extends \yii\db\ActiveRecord
     
     public static function getActiveDataQuery()
     {
-        $query = Role::find()->where(['<>','rolename', 'member']);
+        $query = Role::find();
 
         return new ActiveDataProvider(['query' => $query]);
     }
@@ -100,8 +100,7 @@ class Role extends \yii\db\ActiveRecord
 
     public static function getAll()
     {
-        // return self::find()->all();     
-        return self::find()->where(['<>','rolename', 'member'])->all();
+        return self::find()->all();     
     }
     
     public static function getRolenameById($id)
