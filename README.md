@@ -40,3 +40,11 @@
     2. asstadmin/password
       - Belongs to the 'assistant_librarian' role
 
+###Environment
+	XAMPP for Windows 7.0.1 (Apache + MariaDB + PHP + Perl)
+		OS: Windows 10
+		PHP: 7.0.1
+		
+	NOTE: Haven't tested on Non-Windows platforms
+	
+				
