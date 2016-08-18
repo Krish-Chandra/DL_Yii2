@@ -26,6 +26,11 @@ $this->params['breadcrumbs'][] = $this->title;
 
                     'book.title',
                     [
+                        'label' => 'Author',
+                        'value' => 'book.author.authorname'
+                    ],
+                    
+                    [
                     	'attribute' => 'user.username',
                     	'label' => 'Issued To',
                     ],

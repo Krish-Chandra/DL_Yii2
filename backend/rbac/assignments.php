@@ -6,4 +6,7 @@ return [
     2 => [
         'assistant_librarian',
     ],
+    3 => [
+        'librarian',
+    ],
 ];
