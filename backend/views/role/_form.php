@@ -15,7 +15,7 @@ use yii\helpers\ArrayHelper;
         <?= $form->field($model, 'rolename')->textInput(['maxlength' => 255]) ?>
         <?= $form->field($model, 'description')->textInput(['maxlength' => 255]) ?>
 		<div class="form-group">
-			<label class="control-label">Permission</label>
+			<label class="control-label">Permissions</label>
 			<br />
 
 <?php		

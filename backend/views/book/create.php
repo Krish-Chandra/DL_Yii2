@@ -12,7 +12,7 @@ $this->params['breadcrumbs'][] = 'Add';
 <?php if (!(empty($categoryModels) || empty($authorModels) || empty($publisherModels)))
 {
 ?>
-	<div class="book-create" style="width:700px;">
+	<div style="width:700px;">
 
 	    <div class="panel panel-primary">
 	    	<div class="panel-heading">

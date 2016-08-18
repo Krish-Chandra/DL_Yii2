@@ -34,6 +34,7 @@
 	    public function attributeLabels()
 	    {
 	        return [
+	        	'username' => 'Name',
 	            'role_id' => 'Role',
 	        ];
 	    }

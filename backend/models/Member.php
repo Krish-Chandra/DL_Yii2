@@ -32,6 +32,7 @@ class Member extends User
     public function attributeLabels()
     {
         return [
+            'username' => 'Name',
         ];
     }
 

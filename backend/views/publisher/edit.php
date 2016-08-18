@@ -10,7 +10,7 @@ $this->params['breadcrumbs'][] = ['label' => 'Publishers', 'url' => ['index']];
 $this->params['breadcrumbs'][] = 'Edit';
 ?>
 
-<div class="author-update" style="width:700px;">
+<div style="width:700px;">
 
     <div class="panel panel-primary">
     	<div class="panel-heading">

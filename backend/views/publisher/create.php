@@ -9,11 +9,11 @@ $this->title = 'Add Publisher';
 $this->params['breadcrumbs'][] = ['label' => 'Publishers', 'url' => ['index']];
 $this->params['breadcrumbs'][] = 'Add';
 ?>
-<div class="book-create" style="width:700px;">
+<div style="width:700px;">
 
     <div class="panel panel-primary">
     	<div class="panel-heading">
-    		<b>Add a New Publisher</b>
+    		<b>Add Publisher</b>
     	</div>
     	<div class="panel-body">
 		    <?= $this->render('_form', [

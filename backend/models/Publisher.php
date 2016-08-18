@@ -53,7 +53,7 @@ class Publisher extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'publishername' => 'Publishername',
+            'publishername' => 'Name',
             'address' => 'Address',
             'city' => 'City',
             'state' => 'State',

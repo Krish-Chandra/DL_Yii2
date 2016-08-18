@@ -51,7 +51,7 @@ class Author extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'authorname' => 'Author Name',
+            'authorname' => 'Name',
             'address' => 'Address',
             'city' => 'City',
             'state' => 'State',

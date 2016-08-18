@@ -60,7 +60,7 @@ class Role extends \yii\db\ActiveRecord
     {
         return [
 
-            'rolename' => 'Rolename',
+            'rolename' => 'Name',
             'description' => 'Description',
         ];
     }
