@@ -34,7 +34,7 @@
     - member (users of the system will belong to this role)
 
   - The app comes with two preconfigured admin users:
-    1. name: adminuser/ password: password
+    1. name: admin / password: password
       - Belongs to the 'librarian' role
 
     2. asstadmin/password
